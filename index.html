@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HOMEWORK</title>
 </head>
 <body>
-    hello, world!
+    <!-- Heading 사용 -->
+    <h1>MOVIE TOP 3</h1>
+
+    <!-- ul 사용 -->
+    <ul>
+        <li><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1835133&qvt=0&query=%ED%86%A0%EC%9D%B4%20%EC%8A%A4%ED%86%A0%EB%A6%AC%204%20%EA%B4%80%EB%9E%8C%ED%8F%89">Toy Story 관람평 바로가기</a></li>
+        <li><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%A5%AC%EB%A7%8C%EC%A7%80+%EA%B4%80%EB%9E%8C%ED%8F%89&oquery=%EA%B3%A8%EB%93%A0%EC%95%84%EC%9D%B4+%EA%B4%80%EB%9E%8C%ED%8F%89&tqi=i%2BPXWlqosTCssmUOvV0ssssstOo-018902">jumanji 관람평 바로가기</a></li>
+    </ul>
+
+    <!-- 영화 테이블 -->
+    <table border="2">
+        <!-- caption 사용 -->
+        <caption>TABLE</caption>
+        <tr>
+            <th rowspan="2">순위</th>
+            <th colspan="3">영화 정보</th>
+        </tr>
+        <tr>
+            <th>제목</th>
+            <th>포스터</th>
+            <th>명대사</th>
+        </tr>
+        <!-- 1등 영화 -->
+        <tr>
+            <td rowspan="2">1</td>
+            <td rowspan="2">Money Train</td>
+            <td ><img src="mtp.jpeg" alt="money train 포스터" width="150" height="200"></td>
+            <td rowspan="2">"Get on, or GET OUT THE WAY!"</td>
+        </tr>
+        <tr>
+            <td>Director-Joseph Ruben</td>
+        </tr>
+        <!-- 2등 영화 -->
+        <tr>
+            <td>2</td>
+            <td>Jumanji</td>
+            <td><img src="jp.jpeg" alt="쥬만지 포스터" width="150" height="200"></td>
+            <td>"Roll the dice and unleash the excitement!"</td>
+        </tr>
+        <!-- 3등 영화 -->
+        <tr>
+            <td>3</td>
+            <td>Eye for an Eye</td>
+            <td><img src="efaef.jpeg" alt="eye for an eye 포스터" width="150" height="200"></td>
+            <td>"What do you do when justice fails?"</td>
+        </tr>
+    </table>
 </body>
 </html>
